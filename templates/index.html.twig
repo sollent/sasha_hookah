@@ -1,0 +1,317 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-height-xs="360">
+        <!-- Slide 1 -->
+        <div class="slide" data-bg-image="{{ asset('assets/images/img_3.png') }}">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="slide-captions text-center text-light">
+                    <!-- Captions -->
+                    <span data-animate="fadeInUp" data-animate-delay="300" class="strong"><a href="#"
+                                                                                             class="business"><span
+                                    class="business">Кальян со вкусом</span></a>
+                        </span>
+                    <h1 data-animate="fadeInUp" data-animate-delay="600" id="main-caption">Арендуйте кальян у
+                        UncleHookah <br> и отдыхайте со вкусом. </h1>
+                    <div><a data-animate="fadeInUp" data-animate-delay="900"
+                            class="btn action-custom-btn btn-roundeded btn-light create-order-button"
+                            data-bs-target="#modal-3" data-bs-toggle="modal">Заказать кальян</a>
+                        <a data-animate="fadeInUp" data-animate-delay="1200" href="#about-us"
+                           class="btn action-custom-btn btn-outline btn-roundeded btn-light more-button">Подробнее</a>
+                    </div>
+                    <!-- end: Captions -->
+                </div>
+            </div>
+        </div>
+        <!-- end: Slide 1 -->
+    </div>
+    <section class="about-us" id="about-us">
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading-text heading-section">
+                        <h2>О нас</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>
+                                <b>Наша цель</b> - сделать опыт курения кальяна лучшим в Вашей жизни. Мы доставим Вам
+                                качественный кальян со всеми необходимыми удобствами, как подобает клиентам Дядюшки
+                                Хуки. У нас только элитный табак и приемлимые цены, каких вы не сыщите на рынке проката
+                                кальянов. Закажите доставку кальяна у UncleHookah и проводите досуг со вкусом!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="heading-text heading-section">
+                        <h2>С нами Вы</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>Заплатите самую привлекательную цену за аренду - всего <span class="site-text-color">30 рублей</span>
+                                за кальян на сутки.</p>
+                            <p>Получите высококлассный кальян с <span class="site-text-color">бесплатной</span>
+                                доставкой и плитой для розжига углей.</p>
+                            <p>Ощутите вкус <span class="site-text-color">лучшего</span> кальянного табака и
+                                профессионального обслуживания.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prices" id="prices" data-bg-image="{{ asset('assets/images/img_2.png') }}">
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-lg-7 offset-6">
+                    <div class="heading-text heading-section">
+                        <h2>Прайс лист</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-group prices-list">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Комплект кальяна в аренду на сутки
+                                    <span class="badge bg-primary badge-pill">30 BYN</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Плитка для розжига углей
+                                    <span class="badge bg-primary badge-pill">Бесплатно</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Доставка и вывоз по окончанию аренды
+                                    <span class="badge bg-primary badge-pill">Бесплатно</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Смесь для кальяна
+                                    <span class="badge bg-primary badge-pill">5 BYN</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a data-animate="fadeInUp" data-animate-delay="900"
+                           class="btn action-custom-btn price-action-btn btn-roundeded btn-light create-order-button">Заказать
+                            кальян</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="heading-text text-center">
+                <h2>Что о нас говорят!</h2>
+                <p class="review-pre-text lead text-center">Нам очень важно мнение наших клиентов! Это позволяет нам
+                    улучшать качество работы.</p>
+            </div>
+            <!-- Testimonials -->
+            <div class="carousel arrows-visibile testimonial testimonial-single testimonial-left" data-items="1">
+
+                <!-- Testimonials item -->
+                <div class="testimonial-item">
+                    <img src="https://sun2.velcom-by-minsk.userapi.com/s/v1/if1/U1ohrxlcdMYNSTUOZOZOX6tUMrU7jxP3M1YBlbMHDuCYESsHcEFuzsMGm0axAvREhyqloaa3.jpg?size=400x400&quality=96&crop=233,30,485,485&ava=1"
+                         alt="">
+                    <p class="review-text">
+                        Не раз заказывал кальян у Дядюшки Хуки и буду продолжать это делать. Обслуживают как царя, мне и
+                        друзьям кальян очень нравится, вкусы отменные, качество на уровне, рекомендую.
+                    </p>
+                    <span>Антонович Антон</span>
+                    <span style="color: whitesmoke;">Постоянный клиент</span>
+                </div>
+                <!-- end: Testimonials item-->
+
+                <!-- Testimonials item -->
+                <div class="testimonial-item">
+                    <img src="https://sun1.velcom-by-minsk.userapi.com/s/v1/ig2/3VxgaiflceAnBAyCf0p_O6AdcdYxBaqbeEkHHzCn2RVxZEvhivfxaEqcJK3D8sJGk3JjwwyjcHhKz9aMNo7OG5AT.jpg?size=400x400&quality=96&crop=1,36,852,852&ava=1"
+                         alt="">
+                    <p class="review-text">
+                        Облсуживание на уровне, цена очень сильно порадовала. Нареканий нет, кальян был доставлен со
+                        всеми комплектующими. Кальян видно, что совершенно новый.
+                    </p>
+                    <span>Максим Булах</span>
+                    <span style="color: whitesmoke;">Клиент</span>
+                </div>
+                <!-- end: Testimonials item-->
+
+                <!-- Testimonials item -->
+                <div class="testimonial-item">
+                    <img src="https://sun2.velcom-by-minsk.userapi.com/s/v1/ig2/fIInf17ITjv7sAX4MGPAyHt3qbOmjQAuFHjHd2EtffO9lkoA1EWRNv-P6YsRsdYeV6WUBusBufRqq2g8GYGnuYwK.jpg?size=400x400&quality=96&crop=1,0,2160,2160&ava=1"
+                         alt="">
+                    <p class="review-text">
+                        Безусловно советую. Персонал очень отзывчивый, договориться не составило проблем. Очень вкусный
+                        кальян получился, в следующий раз заказываю обязательно у UncleHookah! </p>
+                    <span>Иван Ромашевич</span>
+                    <span style="color: whitesmoke;">Постоянный клиент</span>
+                </div>
+                <!-- end: Testimonials item-->
+
+            </div>
+            <!-- end: Testimonials -->
+        </div>
+    </section>
+    <div class="modal fade custom-modal" id="modal-3" tabindex="-1" role="modal" aria-labelledby="modal-label-3"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="modal-label-3" class="modal-title">Конструктор заказа</h4>
+                    <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="{{ path('create-order-action') }}" method="post">
+                    <div class="row mb20">
+                        <div class="col-md-12 form-el-1">
+                            <h5>Комплект кальяна в аренду на сутки - 30 BYN </h5>
+                            <em style="font-size: 1.05rem;"><span class="site-text-color">Акция!</span> Каждый
+                                следующий
+                                комплект - 20 BYN</em>
+                            <input required name="count" type="hidden" id="range_slider_1"/>
+                            <em style="margin-top: 15px;">В комплект входит кальян с колбой, чашей, шлангом и
+                                калаудом,
+                                угли, одноразовые мундштуки</em>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-group prices-list">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Плитка для розжига углей
+                                    <span class="badge bg-primary badge-pill site-text-color"
+                                          style="font-size: 1.3rem;">Бесплатно</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Доставка и вывоз по окончанию аренды
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-check delivery-checkbox">
+                                                <input checked class="form-check-input"
+                                                       id="defaultCheck1"
+                                                       name="insideCity"
+                                                       type="checkbox">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    В пределах МКАД
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-check delivery-checkbox">
+                                                <input class="form-check-input"
+                                                       id="defaultCheck2"
+                                                       name="outsideCity"
+                                                       type="checkbox">
+                                                <label class="form-check-label" for="defaultCheck2">
+                                                    За пределами МКАД
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <span class="badge bg-primary badge-pill site-text-color"
+                                                  style="font-size: 1.3rem;">Бесплатно</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div class="row" style="width: 100%;">
+                                        <div class="col-md-9">
+                                            Дополнительно: смесь для кальяна - 5 BYN
+                                        </div>
+                                        <div class="col-md-3" style="padding-right: 0">
+                                            <input name="countAdditionalMixes" style="margin-top: 0 !important;"
+                                                   class="form-control m-t-20"
+                                                   placeholder="Введите кол-во" type="number">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <b>Итого</b>
+                                    <span class="badge bg-primary badge-pill site-text-color"
+                                          style="font-size: 1.3rem;"><b>45 BYN</b></span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div class="row" style="width: 100%;">
+                                        <div class="col-md-7">
+                                            Номер телефона
+                                        </div>
+                                        <div class="col-md-5" style="padding-right: 0">
+                                            <input required name="phoneNumber" style="margin-top: 0 !important;"
+                                                   class="form-control m-t-20"
+                                                   placeholder="Введите номер" type="text">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div class="row" style="width: 100%;">
+                                        <div class="col-md-6">
+                                            Адрес доставки
+                                        </div>
+                                        <div class="col-md-6" style="padding-right: 0">
+                                            <input required name="address" style="margin-top: 0 !important;"
+                                                   class="form-control m-t-20"
+                                                   placeholder="Введите адрес" type="text">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div class="row" style="width: 100%;">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label style="font-size: 1.5rem; color: whitesmoke">Дата
+                                                    доставки</label>
+                                                <div class="input-group date" id="datetimepicker2"
+                                                     data-target-input="nearest">
+                                                    <input required name="date" class="datetime-custom-input" type="date"
+                                                           placeholder="Выберите дату"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label style="font-size: 1.5rem; color: whitesmoke">Время
+                                                    доставки</label>
+                                                <div class="input-group date" id="datetimepicker3"
+                                                     data-target-input="nearest">
+                                                    <input required name="time" class="datetime-custom-input" type="time"
+                                                           placeholder="Выберите время"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-b btn-do-order" type="submit">Заказать</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalStripSuccess" class="modal-strip modal-top background-success">
+        <div class="container">
+            <div class="text-center">
+                Ваш заказ принят нашим специалистом и будет обработан в самое ближайшее время!
+            </div>
+        </div>
+    </div>
+    <button type="button" data-modal="#modalStripSuccess" id="modal-custom-success" class="btn btn-modal btn-success">Success</button>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+
+        let modalSuccess = document.getElementById('modal-custom-success');
+        console.log(modalSuccess);
+        modalSuccess.click();
+        // basic
+        $('#range_slider_1').ionRangeSlider({
+            min: 0,
+            max: 5,
+        });
+    </script>
+{% endblock %}

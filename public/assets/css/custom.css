@@ -1,0 +1,335 @@
+.dark #header .header-inner, .dark #header #header-wrap, #header.dark .header-inner, #header.dark #header-wrap {
+    background-color: #29110a87 !important;
+}
+
+.dark #mainMenu nav > ul > li > a, #mainMenu.dark nav > ul > li > a {
+    letter-spacing: 2.5px;
+}
+
+.inspiro-slider .slide .slide-captions .strong::after {
+    border-top: 1px solid #fff;
+    font-size: 1.5rem;
+}
+
+* {
+    font-family: 'Poiret One', cursive !important;
+}
+
+.custom-container {
+    width: 70%;
+    margin: auto;
+}
+
+.datetime-custom-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0 5px 15px;
+    border-radius: 0.42rem;
+}
+
+#header #logo span.second-word {
+    /*font-family: 'Poiret One', cursive !important;*/
+    background: -webkit-linear-gradient(#926120, #DFAB66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#footer #logo span.first-word {
+    font-size: 2rem;
+}
+#footer #logo span.second-word {
+    font-size: 2rem;
+    /*font-family: 'Poiret One', cursive !important;*/
+    background: -webkit-linear-gradient(#926120, #DFAB66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#footer .footer-info {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+#main-caption {
+    font-weight: 100 !important;
+    font-size: 4.5rem;
+    /*font-family: 'Poiret One', cursive;*/
+}
+
+.create-order-button, .footer-create-order-button {
+    background: linear-gradient(to right, #DFAB66, #926120e8);
+    border: none !important;
+    color: whitesmoke !important;
+}
+
+.footer-create-order-button {
+    width: 150px;
+    text-align: center;
+}
+
+.more-button {
+    border: none !important;
+    outline: 1.5px solid whitesmoke !important;
+}
+
+section.about-us {
+    background: linear-gradient(180deg, rgb(30 13 7) 0%, #330c06 50.52%, rgb(42 18 12) 100%);
+    color: whitesmoke;
+}
+section.about-us p {
+    color: whitesmoke;
+    /*font-family: 'Poiret One', cursive !important;*/
+    font-size: 1.2rem;
+}
+section.about-us .heading-text.heading-section h2:before {
+    height: 2px;
+    background-color: #9c6d31;
+}
+section.about-us .heading-text.heading-section h2 {
+    color: whitesmoke;
+    /*font-family: 'Poiret One', cursive !important;*/
+}
+
+span.site-text-color {
+    background: -webkit-linear-gradient(#926120, #DFAB66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section.about-us .heading-text.heading-section h2 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#926120, #DFAB66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section.prices .heading-text.heading-section h2 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#926120, #DFAB66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.btn {
+    letter-spacing: 2px !important;
+}
+
+section.prices .heading-text.heading-section {
+    /*text-align: right;*/
+}
+section.prices .heading-text.heading-section h2:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 300px;
+    background-color: #9c6d31;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+
+section.prices ul.prices-list li {
+    background: transparent;
+    border: transparent;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+}
+section.prices ul.prices-list li span.badge {
+    background-color: transparent !important;
+}
+.modal.custom-modal ul.prices-list li {
+    background: transparent;
+    border: transparent;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 1.2rem 1.5rem 1.2rem 0;
+}
+.modal.custom-modal ul.prices-list li span.badge {
+    background-color: transparent !important;
+}
+.modal.custom-modal ul.prices-list input {
+    background: transparent;
+    border: 1px solid #f5f5f54d;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+section.prices .price-action-btn {
+    margin: 32px 14px 14px 14px;
+    text-align: center;
+    max-width: 300px;
+}
+
+section.reviews {
+    background: linear-gradient(180deg, rgb(41 17 11) 0%, #330c06 50.52%, rgb(43 17 11) 100%);
+    color: whitesmoke !important;
+}
+
+section.reviews .heading-text h2 {
+    background: -webkit-linear-gradient(#926120, #DFAB66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section.reviews .review-pre-text {
+    color: whitesmoke;
+}
+
+section.reviews .testimonial-item .review-text {
+    color: whitesmoke;
+}
+
+.flickity-button {
+    background-color: #9e7238e6;
+}
+.flickity-button:hover {
+    background-color: #9e7238e6;
+}
+
+#footer {
+    background: #36190f;
+    color: whitesmoke;
+}
+
+#footer a:not(.btn):not(:hover) {
+    color: whitesmoke;
+}
+
+a:not(.btn):not(.badge):hover, a:not(.btn):not(.badge):focus, a:not(.btn):not(.badge):active {
+    text-decoration: none;
+    outline: none;
+    color: #c49152;
+}
+
+.modal.custom-modal .modal-content {
+    border: 1px solid #5b422473 !important;
+    background: #170603eb !important;
+}
+
+.modal.custom-modal .btn-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2.2rem;
+    font-size: 1.8rem;
+}
+
+.modal.custom-modal .modal-title {
+    font-size: 1.45rem !important;
+    text-align: center;
+    color: #a39c99;
+}
+
+.modal.custom-modal .modal-header:after {
+    content: "";
+    position: absolute;
+    background: #352012;
+    width: 200px;
+    height: 0.15rem;
+    top: 56px;
+    left: calc(50% - 100px);
+}
+
+.modal.custom-modal .modal-header:before {
+    content: "";
+    position: absolute;
+    background: #352012;
+    width: 200px;
+    height: 0.15rem;
+    top: 12px;
+    left: calc(50% - 100px);
+}
+
+span.irs span.irs-bar {
+    background: linear-gradient(to right, #926120, #DFAB66) !important;
+}
+
+span.irs {
+    margin-bottom: 5px;
+}
+
+span.irs .irs-single {
+    background: #d39f5a !important;
+}
+
+span.irs .irs-single:after {
+    border-top-color: #d19d59 !important;
+}
+
+.form-el-1 h5 {
+    color: whitesmoke;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+.form-el-1 em {
+    color: whitesmoke;
+    font-size: 0.95rem;
+}
+
+.btn-do-order {
+    margin: 0 auto;
+    width: 35%;
+    background: linear-gradient(to left, #926120, #DFAB66) !important;
+    border: none !important;
+}
+
+.delivery-checkbox input {
+    font-size: 1rem;
+}
+
+.delivery-checkbox label {
+    font-size: 1.2rem;
+}
+
+.modal.custom-modal .modal-footer {
+    border-top: 1px solid #352012;
+}
+
+@media screen and (max-width: 1200px) {
+    span.first-word {
+        font-size: 2rem !important;
+    }
+    span.second-word {
+        font-size: 2rem !important;
+    }
+    .dark #mainMenu nav > ul > li > a, #mainMenu.dark nav > ul > li > a {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    #main-caption {
+        font-size: 1.8rem;
+    }
+    a.btn {
+        font-size: 10px !important;
+    }
+    section.about-us .heading-text.heading-section h2 {
+        font-size: 2rem;
+    }
+
+    section.about-us .row .col-lg-12 p {
+        font-size: 1.1rem;
+    }
+
+    section.prices .custom-container .row .col-lg-7.offset-6 {
+        margin-left: 0;
+    }
+
+    section.prices .heading-text.heading-section h2 {
+        font-size: 2rem;
+    }
+
+    section.prices .row .col-lg-12 ul.prices-list li {
+        font-size: 1.1rem;
+        padding: 0.6rem 1.5rem 0.6rem 0;
+    }
+    .testimonial.testimonial-left .testimonial-item {
+        padding: 10px 55px;
+    }
+    section.reviews .heading-text h2 {
+        font-size: 2rem;
+    }
+    section.reviews .review-pre-text {
+        font-size: 14px;
+    }
+}

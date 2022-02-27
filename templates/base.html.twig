@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="INSPIRO" />
+        <meta name="description" content="Themeforest Template Polo, html template">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <!-- Document title -->
+        <title>{% block title %}Uncle Hookah{% endblock %}</title>
+
+        <!-- Stylesheets & Fonts -->
         {% block stylesheets %}
-            {{ encore_entry_link_tags('app') }}
+            <link href="{{ asset('assets/css/plugins.css') }}" rel="stylesheet">
+            <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+            <link href="{{ asset('assets/css/fonts.css') }}" rel="stylesheet">
+            <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
         {% endblock %}
 
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}
+            {% include 'common/header.html.twig' %}
+            {% block main %}{% endblock %}
+            {% include 'common/footer.html.twig' %}
+        {% endblock %}
+        {% block javascripts %}
+            <!-- Scroll top -->
+            <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+            <!--Plugins-->
+            <script src="{{ asset('assets/js/jquery.js') }}"></script>
+            <script src="{{ asset('assets/js/plugins.js') }}"></script>
+            <!--Template functions-->
+            <script src="{{ asset('assets/js/functions.js') }}"></script>
+            <!--Ion Range Slider-->
+            <link href="{{ asset('assets/plugins/rangeslider.css') }}" rel="stylesheet">
+            <script src="{{ asset('assets/plugins/rangeslider.js') }}"></script>
+        {% endblock %}
     </body>
 </html>
